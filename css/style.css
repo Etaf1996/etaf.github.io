@@ -20916,22 +20916,14 @@ header .overlay .slider .carousel-control-next i {
   }
 }
 @media (max-width: 400px) {
-  .card-body {
-    width: 80%;
-    border: 1px solid #EEE;
-    border-radius: 5px;
-    position: relative;
-    background-color: #EEE;
-    top: -10px;
-    left: -3%;
+  .latest-postss .card-body {
+    width: 75%;
   }
-
-  .card-title {
+  .latest-postss .card-title {
     font-weight: bold;
     font-size: 14px;
   }
-
-  .card-text {
+  .latest-postss .card-text {
     font-size: 11px;
   }
 }
@@ -21406,13 +21398,7 @@ footer .copyright p {
 }
 @media (max-width: 400px) {
   .latest-posts .card-body {
-    width: 80%;
-    border: 1px solid #EEE;
-    border-radius: 5px;
-    position: relative;
-    background-color: #EEE;
-    top: -10px;
-    left: -3%;
+    width: 75%;
   }
   .latest-posts .card-title {
     font-weight: bold;
