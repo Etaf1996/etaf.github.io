@@ -20915,6 +20915,26 @@ header .overlay .slider .carousel-control-next i {
     width: 100%;
   }
 }
+@media (max-width: 400px) {
+  .card-body {
+    width: 80%;
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    position: relative;
+    background-color: #EEE;
+    top: -10px;
+    left: -3%;
+  }
+
+  .card-title {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .card-text {
+    font-size: 11px;
+  }
+}
 #top-menue {
   background-color: #EEE !important;
 }
@@ -21391,7 +21411,7 @@ footer .copyright p {
     border-radius: 5px;
     position: relative;
     background-color: #EEE;
-    top: -14px;
+    top: -10px;
     left: -3%;
   }
   .latest-posts .card-title {
