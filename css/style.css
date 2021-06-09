@@ -21384,6 +21384,24 @@ footer .copyright p {
     font-size: 20px !important;
   }
 }
+@media (max-width: 400px) {
+  .latest-posts .card-body {
+    width: 80%;
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    position: relative;
+    background-color: #EEE;
+    top: -14px;
+    left: -3%;
+  }
+  .latest-posts .card-title {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .latest-posts .card-text {
+    font-size: 11px;
+  }
+}
 @charset "UTF-8";
 @font-face {
   font-family: "JF Flat Regular";
